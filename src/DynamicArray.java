@@ -39,14 +39,14 @@ public class DynamicArray {
     }
     
     public boolean isEmpty(){
-        if(arr[0]=null){
+        if(size==0){
             return true;
         }
         return false;
     }
     
     public int getSize(){
-        System.out.print(size )
+        return size;
     }
     
     public void printStructure(){
