@@ -46,9 +46,7 @@ public class DynamicArray {
     }
     
     public int getSize(){
-        for(int n=0;arr[n]=null;n++){
-            
-        }
+        System.out.print(size)
     }
     
     public void printStructure(){
