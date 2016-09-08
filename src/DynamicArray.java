@@ -35,17 +35,20 @@ public class DynamicArray {
     }
     
     public void remove(int i){
-        // FIXED THIS
+
     }
     
     public boolean isEmpty(){
-        // FIXED THIS
+        if(arr[0]=null){
+            return true;
+        }
         return false;
     }
     
     public int getSize(){
-        // FIXED THIS
-        return 0;
+        for(int n=0;arr[n]=null;n++){
+            
+        }
     }
     
     public void printStructure(){
